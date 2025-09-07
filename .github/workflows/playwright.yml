@@ -31,5 +31,5 @@ jobs:
       if: ${{ !cancelled() }}
       with:
         name: test-videos
-        path: test-results/video/
+        path: test-results/**/video/
         retention-days: 30
